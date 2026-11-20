@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CampusBite — Campus ka Apna Smart Canteen Ordering System</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #0B0F19;
+      color: #F8FAFC;
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, #FF6B00 0%, #FFB800 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .hero-glow {
+      background: radial-gradient(circle at 50% 0%, rgba(255, 107, 0, 0.22) 0%, rgba(11, 15, 25, 0) 65%);
+    }
+    .card-glass {
+      background: rgba(23, 31, 50, 0.75);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-orange-500 selection:text-white">
+
+  <!-- Navbar -->
+  <nav class="sticky top-0 z-50 border-b border-white/10 bg-[#0B0F19]/85 backdrop-blur-md">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2.5">
+        <span class="text-2xl">🍔</span>
+        <span class="text-xl font-extrabold tracking-tight text-white">Campus<span class="text-orange-500">Bite</span></span>
+      </a>
+      <div class="hidden md:flex items-center gap-7 text-sm font-medium text-slate-300">
+        <a href="#about" class="hover:text-orange-400 transition">Concept</a>
+        <a href="#how-it-works" class="hover:text-orange-400 transition">Kaise Kaam Karta Hai</a>
+        <a href="#benefits" class="hover:text-orange-400 transition">Benefits</a>
+        <a href="#founders" class="hover:text-orange-400 transition">Founders</a>
+      </div>
+      <a href="#contact" class="px-4 py-2 rounded-full bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold transition shadow-lg shadow-orange-500/25">
+        Contact Us
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="relative hero-glow pt-14 pb-20 px-4 sm:px-6 overflow-hidden">
+    <div class="max-w-4xl mx-auto text-center">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs sm:text-sm font-semibold mb-6">
+        <span>⚡ No App Download Required • Instant QR Ordering</span>
+      </div>
+      <h1 class="text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-tight text-white mb-5">
+        CampusBite — Campus ka Apna <span class="gradient-text">Smart Canteen Ordering System</span> 🍔⚡
+      </h1>
+      <p class="text-lg sm:text-xl font-semibold text-amber-300 mb-6">
+        “Ab Line Mein Khade Hone Ki Zaroorat Nahi — Apni Seat Se Order Karein, Time Par Pick Karein!”
+      </p>
+      <div class="flex flex-wrap items-center justify-center gap-4 mt-8">
+        <a href="#founders" class="px-6 py-3.5 rounded-xl bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-slate-950 font-bold text-sm sm:text-base transition shadow-xl shadow-orange-500/20">
+          Meet The Founders 👥
+        </a>
+        <a href="#contact" class="px-6 py-3.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/15 text-white font-semibold text-sm sm:text-base transition">
+          Ask a Question / Contact Us ✉️
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-14 px-4 sm:px-6">
+    <div class="max-w-4xl mx-auto card-glass rounded-3xl p-7 sm:p-10 shadow-2xl">
+      <div class="flex items-center gap-3 mb-4">
+        <span class="w-10 h-10 rounded-xl bg-orange-500/20 text-orange-400 flex items-center justify-center text-xl font-bold">💡</span>
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">CampusBite Kya Hai?</h2>
+      </div>
+      <p class="text-slate-300 text-base sm:text-lg leading-relaxed">
+        <strong class="text-white">CampusBite</strong> ek next-generation digital food-ordering platform hai jise khaas taur par hamare campus ke students, faculty aur staff ke break-time ko aasaan aur fast banane ke liye banaya gaya hai. Aksar lunch break ya classes ke beech 10-15 minute ke gap mein canteen ke bahar lambi bheed lag jati hai, jisse order dene aur khana lene mein hi poora break nikal jata hai. <span class="text-orange-400 font-semibold">CampusBite is samasya ko khatam karta hai</span>—ab aapke campus ki teeno canteens ka poora menu seedha aapke smartphone par hai.
+      </p>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section id="how-it-works" class="py-14 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-12">
+        <span class="text-orange-400 font-bold text-sm uppercase tracking-wider">Simple & Fast</span>
+        <h2 class="text-2xl sm:text-4xl font-extrabold text-white mt-2">Yeh Kaise Kaam Karta Hai? (4 Simple Steps)</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Step 1 -->
+        <div class="card-glass rounded-2xl p-6 relative hover:border-orange-500/40 transition">
+          <div class="w-11 h-11 rounded-xl bg-orange-500 text-slate-950 font-extrabold text-lg flex items-center justify-center mb-4">1</div>
+          <h3 class="text-lg font-bold text-white mb-2">📲 QR Scan Karein & Website Kholein</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Kisi bhi heavy app ko download karne ki zaroorat nahi hai. Bas banner par diye gaye QR code ko scan karein aur seedha CampusBite web platform par aayein.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="card-glass rounded-2xl p-6 relative hover:border-orange-500/40 transition">
+          <div class="w-11 h-11 rounded-xl bg-orange-500 text-slate-950 font-extrabold text-lg flex items-center justify-center mb-4">2</div>
+          <h3 class="text-lg font-bold text-white mb-2">🍽️ Apni Canteen Chunein</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Campus ki teeno canteens mein se apni pasandida canteen select karein aur unka live menu aur prices check karein.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="card-glass rounded-2xl p-6 relative hover:border-orange-500/40 transition">
+          <div class="w-11 h-11 rounded-xl bg-orange-500 text-slate-950 font-extrabold text-lg flex items-center justify-center mb-4">3</div>
+          <h3 class="text-lg font-bold text-white mb-2">💳 Order Place & UPI Payment</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Apne favourite snacks, meals ya beverages cart mein add karein, apni basic details (Name, Course/Department, Pickup Time) bharein aur direct UPI QR ke zariye instant payment karein.
+          </p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="card-glass rounded-2xl p-6 relative hover:border-orange-500/40 transition">
+          <div class="w-11 h-11 rounded-xl bg-orange-500 text-slate-950 font-extrabold text-lg flex items-center justify-center mb-4">4</div>
+          <h3 class="text-lg font-bold text-white mb-2">⚡ Bina Wait Kiye Pickup Karein</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Aapka order seedha canteen counter par chala jata hai. Jaise hi order ready hota hai, counter se apna unique Order Token dikhakar khana collect karein!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Benefits Section -->
+  <section id="benefits" class="py-14 px-4 sm:px-6 bg-slate-900/50 border-y border-white/5">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-12">
+        <span class="text-amber-400 font-bold text-sm uppercase tracking-wider">Why Students & Faculty Love Us</span>
+        <h2 class="text-2xl sm:text-4xl font-extrabold text-white mt-2">CampusBite Kyun Use Karein? (Key Benefits)</h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div class="card-glass rounded-2xl p-6 flex items-start gap-4">
+          <span class="text-3xl">⏱️</span>
+          <div>
+            <h3 class="text-lg font-bold text-white mb-1">Time Bachayein</h3>
+            <p class="text-slate-400 text-sm">Break time line mein lagne ke bajay doston ke saath ya aaram se bitayein.</p>
+          </div>
+        </div>
+
+        <div class="card-glass rounded-2xl p-6 flex items-start gap-4">
+          <span class="text-3xl">🍽️</span>
+          <div>
+            <h3 class="text-lg font-bold text-white mb-1">Teeno Canteens Ek Jagah</h3>
+            <p class="text-slate-400 text-sm">Alag-alag canteen jakar menu poochne ki zaroorat nahi—sab kuch ek hi screen par compare karein.</p>
+          </div>
+        </div>
+
+        <div class="card-glass rounded-2xl p-6 flex items-start gap-4">
+          <span class="text-3xl">💳</span>
+          <div>
+            <h3 class="text-lg font-bold text-white mb-1">100% Cashless & Fast</h3>
+            <p class="text-slate-400 text-sm">Chhutte (change) paise ki jhanjhat khatam; seedha PhonePe, GPay ya Paytm se pay karein.</p>
+          </div>
+        </div>
+
+        <div class="card-glass rounded-2xl p-6 flex items-start gap-4">
+          <span class="text-3xl">🗓️</span>
+          <div>
+            <h3 class="text-lg font-bold text-white mb-1">Pre-Order Facility</h3>
+            <p class="text-slate-400 text-sm">Class khatam hone se 10 minute pehle hi order kar dein, taaki canteen pahunchte hi aapka khana ready mile.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Founders Section -->
+  <section id="founders" class="py-20 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-14">
+        <span class="text-orange-400 font-bold text-sm uppercase tracking-wider">Leadership Team</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2">Meet The Founders of CampusBite</h2>
+        <p class="text-slate-400 mt-3 max-w-xl mx-auto text-sm sm:text-base">
+          Campus dining ko smart aur queue-free banane ke peeche hamari founding team se connect karein.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7">
+        
+        <!-- 1. Naitik Dubey -->
+        <div class="card-glass rounded-3xl p-6 text-center flex flex-col items-center justify-between hover:-translate-y-1.5 transition duration-300 border border-orange-500/20">
+          <div class="w-full flex flex-col items-center">
+            <div class="w-28 h-28 rounded-full p-1 bg-gradient-to-tr from-orange-500 to-amber-400 mb-4 shadow-lg">
+              <img src="naitik.jpg" alt="Naitik Dubey" class="w-full h-full object-cover rounded-full bg-slate-800" />
+            </div>
+            <h3 class="text-xl font-bold text-white">Naitik Dubey</h3>
+            <p class="text-orange-400 font-semibold text-sm mt-1">Founder & CFO</p>
+            <p class="text-slate-400 text-xs mt-0.5">CampusBite</p>
+          </div>
+          <a href="https://www.linkedin.com/in/naitik-dubey-founder" target="_blank" rel="noopener noreferrer"
+             class="mt-6 w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-[#0A66C2] hover:bg-[#004182] text-white font-semibold text-sm transition shadow-md">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+            Connect on LinkedIn
+          </a>
+        </div>
+
+        <!-- 2. Avani Vishwakarma -->
+        <div class="card-glass rounded-3xl p-6 text-center flex flex-col items-center justify-between hover:-translate-y-1.5 transition duration-300 border border-white/10">
+          <div class="w-full flex flex-col items-center">
+            <div class="w-28 h-28 rounded-full p-1 bg-gradient-to-tr from-orange-500 to-amber-400 mb-4 shadow-lg">
+              <img src="avani.jpg" alt="Avani Vishwakarma" class="w-full h-full object-cover rounded-full bg-slate-800" />
+            </div>
+            <h3 class="text-xl font-bold text-white">Avani Vishwakarma</h3>
+            <p class="text-orange-400 font-semibold text-sm mt-1">CEO & Founder</p>
+            <p class="text-slate-400 text-xs mt-0.5">CampusBite</p>
+          </div>
+          <a href="https://www.linkedin.com/in/avani-vishwakarma-852408439" target="_blank" rel="noopener noreferrer"
+             class="mt-6 w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-[#0A66C2] hover:bg-[#004182] text-white font-semibold text-sm transition shadow-md">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+            Connect on LinkedIn
+          </a>
+        </div>
+
+        <!-- 3. Adarsh Gupta -->
+        <div class="card-glass rounded-3xl p-6 text-center flex flex-col items-center justify-between hover:-translate-y-1.5 transition duration-300 border border-white/10">
+          <div class="w-full flex flex-col items-center">
+            <div class="w-28 h-28 rounded-full p-1 bg-gradient-to-tr from-orange-500 to-amber-400 mb-4 shadow-lg">
+              <img src="adarsh.jpg" alt="Adarsh Gupta" class="w-full h-full object-cover rounded-full bg-slate-800" />
+            </div>
+            <h3 class="text-xl font-bold text-white">Adarsh Gupta</h3>
+            <p class="text-orange-400 font-semibold text-sm mt-1">CMO & Founder</p>
+            <p class="text-slate-400 text-xs mt-0.5">CampusBite</p>
+          </div>
+          <a href="https://www.linkedin.com/in/adarsh-gupta-565aa5427" target="_blank" rel="noopener noreferrer"
+             class="mt-6 w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-[#0A66C2] hover:bg-[#004182] text-white font-semibold text-sm transition shadow-md">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+            Connect on LinkedIn
+          </a>
+        </div>
+
+        <!-- 4. Arshad Ahmad -->
+        <div class="card-glass rounded-3xl p-6 text-center flex flex-col items-center justify-between hover:-translate-y-1.5 transition duration-300 border border-white/10">
+          <div class="w-full flex flex-col items-center">
+            <div class="w-28 h-28 rounded-full p-1 bg-gradient-to-tr from-orange-500 to-amber-400 mb-4 shadow-lg">
+              <img src="arshad.jpg" alt="Arshad Ahmad" class="w-full h-full object-cover rounded-full bg-slate-800" />
+            </div>
+            <h3 class="text-xl font-bold text-white">Arshad Ahmad</h3>
+            <p class="text-orange-400 font-semibold text-sm mt-1">CEO & Founder</p>
+            <p class="text-slate-400 text-xs mt-0.5">CampusBite</p>
+          </div>
+          <a href="https://www.linkedin.com/in/arshad-ahmad-1198b3433" target="_blank" rel="noopener noreferrer"
+             class="mt-6 w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-[#0A66C2] hover:bg-[#004182] text-white font-semibold text-sm transition shadow-md">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+            Connect on LinkedIn
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us / Query Form Section -->
+  <section id="contact" class="py-16 px-4 sm:px-6 bg-slate-900/60 border-t border-white/10">
+    <div class="max-w-2xl mx-auto card-glass rounded-3xl p-7 sm:p-10 shadow-2xl">
+      <div class="text-center mb-8">
+        <span class="inline-block px-3 py-1 rounded-full bg-orange-500/15 text-orange-400 text-xs font-bold uppercase tracking-wider mb-2">
+          Have a Question or Feedback?
+        </span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white">Contact Us / Ask a Query 📩</h2>
+        <p class="text-slate-400 text-sm mt-2">
+          CampusBite ke baare mein koi bhi sawal, suggestion ya partnership query ho toh niche form bharein—aapka message seedha hamari team tak pahunchega.
+        </p>
+      </div>
+
+      <!-- FormSubmit.co Integration for GitHub Pages (Sends directly to Workpresentation30@gmail.com) -->
+      <form id="contactForm" action="https://formsubmit.co/Workpresentation30@gmail.com" method="POST" class="space-y-5">
+        <!-- FormSubmit Settings -->
+        <input type="hidden" name="_subject" value="New Query from CampusBite Website!" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_template" value="table" />
+
+        <div>
+          <label for="name" class="block text-sm font-semibold text-slate-300 mb-1.5">Your Name *</label>
+          <input type="text" id="name" name="Name" required placeholder="Apna poora naam likhein"
+                 class="w-full px-4 py-3 rounded-xl bg-slate-950/70 border border-white/15 text-white placeholder-slate-500 focus:outline-none focus:border-orange-500 transition" />
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+          <div>
+            <label for="email" class="block text-sm font-semibold text-slate-300 mb-1.5">Email Address *</label>
+            <input type="email" id="email" name="Email" required placeholder="you@example.com"
+                   class="w-full px-4 py-3 rounded-xl bg-slate-950/70 border border-white/15 text-white placeholder-slate-500 focus:outline-none focus:border-orange-500 transition" />
+          </div>
+          <div>
+            <label for="role" class="block text-sm font-semibold text-slate-300 mb-1.5">You are a... *</label>
+            <select id="role" name="Role"
+                    class="w-full px-4 py-3 rounded-xl bg-slate-950/70 border border-white/15 text-white focus:outline-none focus:border-orange-500 transition">
+              <option value="Student">Student</option>
+              <option value="Faculty / Staff">Faculty / Staff</option>
+              <option value="Canteen Vendor">Canteen Vendor</option>
+              <option value="Investor / Visitor">Investor / Visitor</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label for="message" class="block text-sm font-semibold text-slate-300 mb-1.5">Your Question / Message *</label>
+          <textarea id="message" name="Message" rows="4" required placeholder="Apna sawal ya feedback yahan likhei
+                      <textarea id="message" name="Message" rows="4" required placeholder="Apna sawal ya feedback yahan likhein..."
+                    class="w-full px-4 py-3 rounded-xl bg-slate-950/70 border border-white/15 text-white placeholder-slate-500 focus:outline-none focus:border-orange-500 transition"></textarea>
+        </div>
+
+        <button type="submit" id="submitBtn"
+                class="w-full py-3.5 rounded-xl bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-slate-950 font-extrabold text-base transition shadow-lg shadow-orange-500/25">
+          Send Message 🚀
+        </button>
+
+        <p id="formStatus" class="text-center text-sm font-medium hidden mt-3"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 px-4 border-t border-white/10 text-center text-slate-400 text-sm">
+    <p class="font-bold text-white text-base mb-1">🍔 CampusBite — Smart Canteen Ordering System</p>
+    <p>Website: <a href="https://www.campusbite.in" class="text-orange-400 hover:underline">www.campusbite.in</a> • Contact: <a href="mailto:Workpresentation30@gmail.com" class="text-orange-400 hover:underline">Workpresentation30@gmail.com</a></p>
+    <p class="text-xs text-slate-500 mt-3">© 2026 CampusBite. All rights reserved.</p>
+  </footer>
+
+  <!-- AJAX Form Submission Script (Keeps user on page & sends to Workpresentation30@gmail.com) -->
+  <script>
+    const form = document.getElementById('contactForm');
+    const statusText = document.getElementById('formStatus');
+    const submitBtn = document.getElementById('submitBtn');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      submitBtn.disabled = true;
+      submitBtn.innerText = 'Sending... ⏳';
+
+      const formData = new FormData(form);
+
+      fetch('https://formsubmit.co/ajax/Workpresentation30@gmail.com', {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => response.json())
+      .then(data => {
+        statusText.classList.remove('hidden', 'text-red-400');
+        statusText.classList.add('text-emerald-400');
+        statusText.innerText = '✅ Dhanyawad! Aapka message CampusBite team ko bhej diya gaya hai.';
+        form.reset();
+      })
+      .catch(error => {
+        statusText.classList.remove('hidden', 'text-emerald-400');
+        statusText.classList.add('text-red-400');
+        statusText.innerText = '❌ Kuch error aaya. Kripya seedha Workpresentation30@gmail.com par email karein.';
+      })
+      .finally(() => {
+        submitBtn.disabled = false;
+        submitBtn.innerText = 'Send Message 🚀';
+      });
+    });
+  </script>
+
+</body>
+</html>
